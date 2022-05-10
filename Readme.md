@@ -37,7 +37,7 @@
 - Then click download button, it will automatically download the Dart Extension too
 - But if you have a problem you can type [Dart](https://dart.dev/) and click download
 
-### 3- Creating a new flutter project & Connecting to firebase
+### 3- Creating a new flutter project
 
 - After finishing the Visual Studio Code installing app and Extensions, Click Ctrl+Shift+P to open terminal and click Flutter New Project as below 👇
 
@@ -53,7 +53,7 @@
 - Everything is ready for now
 
 
-### 4- Adding a firebase project & Conecting it with our flutter App
+### 4- Adding a firebase project & Conecting it with the flutter App
 
 - After clicking to Add project button it will redirect us to the page below 👇
 
@@ -90,3 +90,26 @@ https://user-images.githubusercontent.com/88820048/167683016-72609af9-784b-4010-
 - In our flutter app we will open Android -> App -> build.gradle file
 - Then as you see in the upper photo we will copy The Text inside double quotes
 - Ex: "com.example.flutter_firebase_web_app"
+- Now we will go to our firebase app and after clicking Android we will paste the text we copied before like at the photo in below 👇
+
+
+![firebase_app_naming](https://user-images.githubusercontent.com/88820048/167694181-0d30d739-0e32-4fee-bf0c-bf6b9a9a6864.png)
+
+
+- It's not compulsory to give your app a nick name, So i will skip this part
+- Now we will click the Register app button
+
+
+![download_json_page_firebase_console](https://user-images.githubusercontent.com/88820048/167693546-db334ba6-0252-466b-8ab7-455664ba69f8.png)
+
+
+- In the next step we will download this json file tou our computer
+- Then we will move this file inside Android -> App folder like below 👇
+
+
+![json_file_paste_to_vscode_flutter_project](https://user-images.githubusercontent.com/88820048/167694903-65ab69d3-89aa-4aa1-a625-071d79e350a4.png)
+
+
+### 5- Google-services.json file Operations
+
+- 
