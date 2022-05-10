@@ -199,7 +199,7 @@ https://user-images.githubusercontent.com/88820048/167683016-72609af9-784b-4010-
 
 - 👻 Following me on Twitter 👉 [Link](https://twitter.com/AbdullahKasgar)
 - 🤖 Following me on Instagram 👉 [Link](https://www.instagram.com/jay_official_24_/)
-- 👽 Following me on 👉 [Link](https://github.com/abdullah0912/)
+- 👽 Following me on Github 👉 [Link](https://github.com/abdullah0912/)
 - 💻 You can connect with me from email on 👉 [abdullahkasgar2494@gmail.com](abdullahkasgar2494@gmail.com)
 
 
