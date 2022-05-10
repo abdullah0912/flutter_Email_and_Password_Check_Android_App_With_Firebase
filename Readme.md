@@ -110,6 +110,94 @@ https://user-images.githubusercontent.com/88820048/167683016-72609af9-784b-4010-
 ![json_file_paste_to_vscode_flutter_project](https://user-images.githubusercontent.com/88820048/167694903-65ab69d3-89aa-4aa1-a625-071d79e350a4.png)
 
 
-### 5- Google-services.json file Operations
+### 5- firebase VSCode Connection Operations
 
-- 
+- We will add this part of code to Android -> App -> build.gradle, like the photo below 👇
+- The code 👉 apply plugin: 'com.google.gms.google-services'
+
+
+![code_will_add_to_build_gradle_file](https://user-images.githubusercontent.com/88820048/167699040-ac7504de-242c-47c5-b3b6-2b4f02241cf2.png)
+
+
+- Then we will add another code to Android -> build.gradle file, like the photo below 👇
+- The Code 👉  classpath 'com.google.gms:google-services:4.3.5'
+
+
+![code_will_add_to_android_build_gradle](https://user-images.githubusercontent.com/88820048/167699619-8f14e3e3-f21f-45ad-a3da-737a1b157bf3.png)
+
+
+#### Note❗❗❗💥: The first added code part is added to Android -> App -> build.gradle file, But the next code part is added to Android -> build.gradle
+
+- Just be careful to not mess things up, one is inside Android -> App -> build.gradle file and The next one is inside Android -> build.gradle
+
+
+### 6- Packages will add to pubspec.yaml file
+
+- We need to add some packages inside Pubsbec.yaml file to authenticate the Email & Password
+- Packages will Add is below 👇
+- firebase_core: ^1.16.0
+- firebase_auth: ^3.3.17
+- We added this packages for our flutter app from [https://pub.dev/](https://pub.dev/) site
+
+
+![pubsbec_yaml_codes_wil_added](https://user-images.githubusercontent.com/88820048/167702841-1c5262e6-4d91-4c12-b8f1-4197518b639b.png)
+
+
+#### Note❗❗❗💥: Since the packages we use in our flutter project are always updated, I recommend you to get the latest update version of the packages from this link 👉 [https://pub.dev/](https://pub.dev/)
+
+
+- We completed the options of firebase in our app now we will go to Lib -> main.dart file and paste this code below 👇 inside it
+
+
+![carbon](https://user-images.githubusercontent.com/88820048/167708423-883be125-5d33-42a6-b01f-154a922932e0.png)
+
+
+### 7- Final steps for firebase connection
+
+- First of all we will go to our firebase project and click authentication from the side bar, like the photo below 👇
+- Next we click the Get started button
+
+
+![firebase_authentication_page_web_view](https://user-images.githubusercontent.com/88820048/167706660-95b6944e-908e-4028-a3a7-d40ee0bca88a.png)
+
+
+- After that we will go to page in the photo below 👇
+
+
+![email_enabulating_firebase_console](https://user-images.githubusercontent.com/88820048/167707279-e1644c61-7677-4231-a931-cd58f5b2518f.png)
+
+
+- Then we click on Email box and enable the Email & Password authentication
+- After that we return to our flutter app and Run our app
+
+
+![flutter-elevated-button-iphone-1-2](https://user-images.githubusercontent.com/88820048/167708570-68d04ac0-6c93-4f5e-abac-637417c24767.png)
+
+
+- When we click the Click me button and go to our firebase app email page we can see there is a user added at real time
+- You can see the added user in the photo below 👇
+
+
+![email_is_working_photo](https://user-images.githubusercontent.com/88820048/167708930-81e4e929-03ff-456c-9106-39f1c4daaf9d.png)
+
+
+### What did we do as a result?
+
+- 1- We created a firebase account on [https://console.firebase.google.com/](https://console.firebase.google.com/)
+- 2- We Downloaded Visual Studio Code IDE on our computer with it extensions
+- 3- We downloaded flutter SDK on our computer
+- 4- We created a new flutter project on Visual Studi Code IDE
+- 5- We entered our firebase account and created a new project
+- 6- We made some options on Google-services.json, Android -> App -> build.gradle and Android -> build.gradle files
+- 7- We added some packages to Pubsbec.yaml file
+- 8- We enabled Email & Password on our Android firebase app
+- 9- We wrote some part of code on our flutter app and Just added an elevated button
+- 10- Finally we wrote a program that when we clcik on the elevated button, The app adds a new user email on firebase console at real time
+
+
+#### Thanks for reading this repo and you can support me as:
+
+- 👻 Following me on Twitter 👉 [Link](https://twitter.com/AbdullahKasgar)
+- 🤖 Following me on Instagram 👉 [Link](https://www.instagram.com/jay_official_24_/)
+- 👽 Following me on 👉 [Link](https://github.com/abdullah0912/)
+- 💻 You can connect with me from email on 👉 [abdullahkasgar2494@gmail.com](abdullahkasgar2494@gmail.com)
